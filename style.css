@@ -1,0 +1,118 @@
+/* body{
+    margin: 0;
+}
+{
+    scroll-behavior: smooth;
+}
+.img{
+    display: flex;
+    justify-content: space-around;
+    width: 100px;
+} 
+nav{
+    height: 4vmax;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    box-shadow:0 0 10px black;
+    position: sticky;
+    top: 0%;
+    background-color: white;
+    z-index: 1000;
+     background-color: #1B9CFC; 
+}
+.left{
+    width: 20%;
+   display: flex;
+   justify-content: center;
+}
+.left>a{
+    text-decoration:none;
+    font-size: 2vmax;
+    color:#82589F;
+    font-weight: bold;
+}
+.left:hover{
+    background-color: green;
+} 
+.mid{
+    width: 60%;
+    display: flex;
+   justify-content: space-evenly;
+   align-self: stretch;
+}
+.mid>a{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     width: 100%; 
+    color: #82589F;
+}
+.right{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.right>a{
+    text-decoration: none;
+    color: #82589F;
+}
+.right>button:hover{
+    background-color:#1B9CFC;
+}
+.res-card{
+    padding: 5px;
+    width: 200px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.res-container{
+    display: flex;
+    flex-wrap: wrap;
+   justify-content: center;
+}
+.res-logo{
+    width: 100%;
+}
+.res-card:hover{
+    border: 1px solid black;
+    box-shadow: 0 0 20px yellow;
+    cursor: pointer;
+}
+.filter-btn{
+    margin: 10px;
+    background-color: #1B9CFC;
+    cursor: pointer;
+}
+.filter{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.Shimmer-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.shimmer-card{
+    margin: 20px;
+    width: 200px;
+    height: 400px;
+   background-color: #f0f0f0;
+}
+.search{
+margin: 10px;
+}
+.ok{
+    background-color: yellow;
+}
+.search button{
+    margin-left: 10px;
+}
+.user-card{
+    border: 2px solid yellow;
+}  */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
